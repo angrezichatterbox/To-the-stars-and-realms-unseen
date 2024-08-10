@@ -2,4 +2,4 @@
 
 - Clone the repository 
 - Run the victory.py file to receive your winning token.
-- Screenshot the message and save it in the amFOSS task 2 folder. 
+- Screenshot the message and save it in the HandBook
