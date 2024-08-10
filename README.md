@@ -1,3 +1,5 @@
 # To the stars and realms unseen 
 
-- Run the victory.py file to receive your winning token. 
+- Clone the repository 
+- Run the victory.py file to receive your winning token.
+- Screenshot the message and save it in the amFOSS task 2 folder. 
