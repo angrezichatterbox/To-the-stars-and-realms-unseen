@@ -1,3 +1,4 @@
+import sys
 import subprocess
 
 def get_git_username():
@@ -16,9 +17,12 @@ def display_victory_message(username):
             "Take a screenshot of this and save it in your handbook folder along with the other codes you have collected.\n"
             "Stand proud, champion!"
         )
-
     print(message)
 
 if __name__ == "__main__":
+    if len(sys.argv) != 2 or sys.argv[1] != '--run':
+        print("This script must be run with the '--run' argument from the command line.")
+        sys.exit(1)
+
     git_username = get_git_username()
     display_victory_message(git_username)
