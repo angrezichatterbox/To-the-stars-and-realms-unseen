@@ -18,7 +18,7 @@ def display_victory_message(username):
             "Stand proud, champion!"
         )
     else:
-        message = 'Setup Git Properly Man'
+        message = 'Setup Git Config Properly'
     print(message)
 
 if __name__ == "__main__":
