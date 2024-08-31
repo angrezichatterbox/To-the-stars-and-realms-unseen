@@ -17,6 +17,8 @@ def display_victory_message(username):
             "Take a screenshot of this and save it in your handbook folder along with the other codes you have collected.\n"
             "Stand proud, champion!"
         )
+    else:
+        message = 'Setup Git Properly Man'
     print(message)
 
 if __name__ == "__main__":
